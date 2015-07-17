@@ -113,6 +113,15 @@ header img {
   padding-right: 15px;
 }
 
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
 /* Content */
 
 .content {
@@ -195,7 +204,8 @@ header img {
 }
 
 .grid input:hover {
-  border: 1px solid #00D2E5;
+  background-color: gray;
+  color: #FFF;
 }
 
 .box {
