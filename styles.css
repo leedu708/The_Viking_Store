@@ -202,6 +202,44 @@ header img {
   margin-right: 39.5px;
 }
 
+/* Page Navigation */
+
+.page-nav {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+.page-nav a {
+  color: blue;
+  text-decoration: none;
+}
+
+.page-nav a:hover {
+  text-decoration: underline;
+}
+
+.page-nav div {
+  display: inline-block;
+  text-align: center;
+}
+
+.prev {
+  margin-right: 20px;
+}
+
+.next {
+  margin-left: 20px;
+}
+
+.numbers-left,
+.numbers-right {
+  word-spacing: 10px;
+}
+
+.elipses {
+  margin: 0 10px;
+}
+
 /* Footer */
 
 footer {
@@ -220,6 +258,15 @@ footer {
 footer h2 {
   margin-top: 15px;
   color: orange;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 #phone,
